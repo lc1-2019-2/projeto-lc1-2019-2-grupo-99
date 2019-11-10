@@ -35,7 +35,8 @@ IMPORTING sorting, mergesort
 %%%%% the input data, or in other words that it preserves data.  %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
- radixsort_permutes : CONJECTURE
+
+radixsort_permutes : CONJECTURE
   FORALL(l : list[T]): permutations[T](radixsort(l), l)
 
 % Definition of the lexicographical order built from << and <= 

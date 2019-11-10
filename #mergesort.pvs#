@@ -46,7 +46,7 @@ merge_is_permutation : LEMMA
 FORALL (l1, l2 : list[T]) : 
   permutations(merge(l1,l2), append(l1,l2))
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-
 %%%%% Next lemma proves that merging sorted lists gives as
 %%%%% result a sorted list. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
